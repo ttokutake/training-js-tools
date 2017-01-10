@@ -1,2 +1,4 @@
-export const hello = 'hello';
-export const world = 'world';
+// @flow
+
+export const hello: string = 'hello';
+export const world: string = 'world';
