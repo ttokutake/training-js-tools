@@ -13,5 +13,15 @@ To try ESLint and Flow.
 $ cd try
 $ npm install
 $ npm run try src/index.js
-$ npm run lint src/*.js
+```
+3. Run style check.
+```bash
+$ npm run lint
+
+### If you want to run with fixing
+### $ npm run lint-fix
+```
+4. Run type check.
+```bash
+$ npm run flow
 ```
