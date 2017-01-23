@@ -11,7 +11,7 @@ To try ESLint and Flow.
 2. Prepare the environment. You are recommended to use [asdf](https://github.com/asdf-vm/asdf) for installing [node.js](https://nodejs.org/en/).
 ```bash
 $ cd try
-$ npm install # or yarn install
+$ npm install # or "yarn install"
 $ npm run try src/index.js
 ```
 3. Run style check.
