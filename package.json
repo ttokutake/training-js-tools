@@ -1,7 +1,7 @@
 {
   "name": "try-lint",
   "version": "0.0.1",
-  "description": "Try ESLint and Flow",
+  "description": "try to use any tools",
   "main": "index.js",
   "scripts": {
     "try": "babel-node",
@@ -14,14 +14,14 @@
   "author": "ttokutake",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-eslint": "^7.1.1",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "babel-preset-es2015": "^6.22.0",
-    "eslint": "^#.#.#",
-    "eslint-config-airbnb-base": "^11.0.1",
-    "eslint-plugin-flowtype": "^2.30.0",
-    "eslint-plugin-import": "^#.#.#",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^7.2.3",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-flowtype": "^2.32.1",
+    "eslint-plugin-import": "^2.0.1",
     "flow-bin": "^0.38.0",
     "jest": "^19.0.2",
     "jsverify": "^0.8.2"
