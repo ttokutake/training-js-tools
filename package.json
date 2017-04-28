@@ -23,7 +23,8 @@
     "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-import": "^#.#.#",
     "flow-bin": "^0.38.0",
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "jsverify": "^0.8.2"
   },
   "repository": "git@github.com:ttokutake/try-lint.git"
 }
