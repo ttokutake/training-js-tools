@@ -2,10 +2,10 @@
 
 import util from 'util';
 
-export function tell(obj: any): void {
+export function inspect(obj: any): void {
   process.stdout.write(`${util.inspect(obj)}\n`);
 }
 
-export function asItIs(obj: any): any {
+export function parry(obj: any): any {
   return obj;
 }

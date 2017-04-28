@@ -1,19 +1,19 @@
 // @flow
 
 // Todo: I want to align "import (as) from" and "const =" forcely!
-import {hello} from './constants';
-import {tell}  from './utils';
+import {hello}   from './constants';
+import {inspect} from './utils';
 
 const integer1: number = 1;
 const string1 : string = 'string';
 
-tell(hello);
-tell(integer1);
-tell(string1);
+inspect(hello);
+inspect(integer1);
+inspect(string1);
 
 const obj1: {a: number, b: number} = {a: 1, b: 2};
 
-tell(obj1);
+inspect(obj1);
 
 const obj2: Object = {
   a  : 1,
@@ -23,24 +23,24 @@ const obj2: Object = {
   ghij: 4,
 };
 
-tell(obj2);
+inspect(obj2);
 
 const cond: boolean = true;
 if(cond) {
-  tell('ok!');
+  inspect('ok!');
 }
 
 while(cond) {
-  tell('ok!');
+  inspect('ok!');
   break;
 }
 
 switch(cond) {
   case true:
-    tell('ok');
+    inspect('ok');
     break;
   default:
-    tell('ng');
+    inspect('ng');
 }
 
 // default config
@@ -50,12 +50,12 @@ const array2: number[] = [
   5,
   6,
 ];
-tell(array1);
-tell(array2);
+inspect(array1);
+inspect(array2);
 
 // Todo: I want to align tuples by comma!
 const tuple1: [number, number] = [1, 2];
 const tuple2: [number, number] = [33, 44];
 
-tell(tuple1);
-tell(tuple2);
+inspect(tuple1);
+inspect(tuple2);
